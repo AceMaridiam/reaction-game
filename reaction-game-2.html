@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title>Reaction Game</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html"; charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<style type="text/css">
+
+		body {
+			padding: 15px;
+			text-align: center;
+		}
+		h1 {
+			padding-top: 10px;
+		}
+		#container {
+			width: 95%;
+			height: 80vh;
+			margin: 0 auto;
+			padding: 10px;
+			border: 1px solid black;
+			overflow: hidden;
+			position: relative;
+		}
+		#box {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			position: absolute;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<h1>Test your reactions time.</h1>
+	<p>Boxes and circles will randomly appear on the screen, click on them as quickly as you can!</p>
+
+	<div id="container">
+
+		<p>Your time: <span id="time">0</span>s</p>
+		<div id="box"></div>
+
+	</div>
+
+	<script type="text/javascript" src="reaction.js"></script>
+
+</body>
+</html>
